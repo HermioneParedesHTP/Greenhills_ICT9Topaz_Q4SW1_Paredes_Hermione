@@ -30,13 +30,15 @@
 </head>
 
 <body>
-<button onclick="toggleInstructions()">Show Instructions</button>
+
+    <div class="login-container">
+        <h1>Login</h1>
+
+        <button onclick="toggleInstructions()">Show Instructions</button>
 
 <p id="instructions" style="display: none;">
     Enter your username and password, then click Login.
 </p>
-    <div class="login-container">
-        <h1>Login</h1>
 
         <form onsubmit="return validateLogin()">
             
