@@ -12,3 +12,12 @@ function validateLogin() {
         document.getElementById("output").innerHTML = "Invalid username or password";
     }
 }
+
+function toggleInstructions() {
+    let instr = document.getElementById("instructions");
+    if (instr.style.display === "none") {
+        instr.style.display = "block";
+    } else {
+        instr.style.display = "none";
+    }
+}
